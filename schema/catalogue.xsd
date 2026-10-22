@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+ xmlns:xml="http://www.w3.org/XML/1998/namespace"
+ xmlns:nihu="urn:nihu-local:database-catalogue:1"
+ xmlns:jpcoar="https://github.com/JPCOAR/schema/blob/master/2.0/"
+ targetNamespace="urn:nihu-local:database-catalogue:1" elementFormDefault="qualified">
+ <xs:import namespace="https://github.com/JPCOAR/schema/blob/master/2.0/" schemaLocation="jpcoar_scm.xsd"/>
+ <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+ <xs:element name="catalogue">
+  <xs:complexType><xs:sequence>
+   <xs:element name="institutions"><xs:complexType><xs:sequence>
+    <xs:element name="institution" minOccurs="0" maxOccurs="unbounded"><xs:complexType>
+     <xs:attribute name="code" type="xs:string" use="required"/>
+     <xs:attribute name="ja" type="xs:string" use="required"/>
+     <xs:attribute name="en" type="xs:string" use="required"/>
+     <xs:attribute name="short" type="xs:string" use="required"/>
+     <xs:attribute name="abbr" type="xs:string" use="required"/>
+     <xs:attribute name="logo" type="xs:string" use="required"/>
+    </xs:complexType></xs:element>
+   </xs:sequence></xs:complexType></xs:element>
+   <xs:element name="supplement" type="xs:string" minOccurs="0"/>
+   <xs:element name="records"><xs:complexType><xs:sequence>
+    <xs:element name="record" minOccurs="1" maxOccurs="unbounded"><xs:complexType><xs:sequence>
+     <xs:element ref="jpcoar:jpcoar"/>
+     <xs:element name="administration" type="xs:string"/>
+     <xs:element name="listSummary" minOccurs="0" maxOccurs="unbounded"><xs:complexType><xs:simpleContent>
+      <xs:extension base="xs:string">
+       <xs:attribute ref="xml:lang" use="required"/>
+       <xs:attribute name="format" use="required"><xs:simpleType><xs:restriction base="xs:string"><xs:enumeration value="html"/></xs:restriction></xs:simpleType></xs:attribute>
+      </xs:extension>
+     </xs:simpleContent></xs:complexType></xs:element>
+     <xs:element name="csvRow" minOccurs="0" maxOccurs="unbounded"><xs:complexType><xs:sequence>
+      <xs:element name="field" minOccurs="1" maxOccurs="unbounded"><xs:complexType><xs:simpleContent>
+       <xs:extension base="xs:string"><xs:attribute name="name" type="xs:string" use="required"/></xs:extension>
+      </xs:simpleContent></xs:complexType></xs:element>
+     </xs:sequence><xs:attribute name="source" type="xs:string" use="required"/>
+      <xs:attribute name="row" type="xs:positiveInteger" use="required"/>
+     </xs:complexType></xs:element>
+    </xs:sequence>
+     <xs:attribute name="id" type="xs:ID" use="required"/>
+     <xs:attribute name="pageId" type="xs:string"/>
+     <xs:attribute name="listed" type="xs:boolean" use="required"/>
+     <xs:attribute name="institution" type="xs:string"/>
+     <xs:attribute name="order" type="xs:nonNegativeInteger"/>
+    </xs:complexType></xs:element>
+   </xs:sequence></xs:complexType></xs:element>
+  </xs:sequence>
+   <xs:attribute name="version" type="xs:string" use="required"/>
+   <xs:attribute name="snapshot" type="xs:string" use="required"/>
+  </xs:complexType>
+ </xs:element>
+</xs:schema>

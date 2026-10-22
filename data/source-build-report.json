@@ -1,0 +1,21 @@
+{
+  "profile_version": "1.1",
+  "records": 501,
+  "csv_sha256": "022c2ff4eb0846b07743d0bff041064d52a321bbbbc7ea64573a62996a57ac17",
+  "supplement_sha256": "2278e0f5df0412806a8fa04d7c99af181f85e6ef669f0615a1f1e95f7c1cfdef",
+  "xml_sha256": "60719a225eddfb5cbca1e857f1af7bcaf21a2806330254376c03c9ccde6fe2e7",
+  "warnings": [
+    {
+      "id": "925",
+      "field": "Access Rights",
+      "value": "利用条件あり",
+      "reason": "Unmapped value retained in csvRow, not guessed in JPCOAR"
+    },
+    {
+      "id": "1010",
+      "field": "Language of contents",
+      "value": "その他",
+      "reason": "Unmapped content language retained in csvRow"
+    }
+  ]
+}

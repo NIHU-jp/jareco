@@ -1,5 +1,8 @@
 # Paths are relative to this configuration file. Replace input to reuse the SSG.
 input = "data/resources.xml"
+source_csv = "data/resources.csv"
+supplement = "data/supplement.json"
+original_csv = "data/1792652894.csv"
 original_input = "data/1792652897.xml"
 default_language = "en"
 languages = ["en", "ja"]
@@ -16,12 +19,12 @@ en = "Explore links to collections, libraries, databases and research resources 
 ja = "日本研究・人文学に関するコレクション、図書館、データベースなどのリンク情報を探せます。"
 
 [notice]
-en = "Experimental searchable snapshot. Metadata has been modified, including provisional resource types and broad DDC mappings. The unmodified original XML is distributed separately."
-ja = "実験的な静的検索サイトです。資源タイプの暫定分類や大分類DDCの付与を含む加工データを使用しています。変更していない元のXMLは別に提供しています。"
+en = "Experimental searchable snapshot. Metadata has been modified, including provisional resource types and broad DDC mappings. The unmodified original CSV and XML are distributed separately."
+ja = "実験的な静的検索サイトです。資源タイプの暫定分類や大分類DDCの付与を含む加工データを使用しています。変更していない元のCSV・XMLは別に提供しています。"
 
 [notice_original_link]
-en = "unmodified original XML"
-ja = "変更していない元のXML"
+en = "unmodified original CSV and XML"
+ja = "変更していない元のCSV・XML"
 
 [source]
 name = "Resource Guide by NIHU DH"

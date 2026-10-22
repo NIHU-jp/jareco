@@ -115,7 +115,10 @@ def read_records(path, repair_html_entities=False):
         if header is not None and header.get("status") == "deleted":
             deleted += 1
             continue
+        stable_page_id = wrapper.get("pageId", "") if wrapper is not None else ""
         source_id = next((text(n) for n in header if local(n.tag) == "identifier"), "") if header is not None else ""
+        if not source_id and wrapper is not None:
+            source_id = wrapper.get("id", "")
         titles = select_values(node, {"title"}, {DC})
         alternatives = select_values(node, {"alternative"}, {DCT})
         descriptions = select_values(node, {"description"}, DATACITE | {DC, DCT})
@@ -127,6 +130,10 @@ def read_records(path, repair_html_entities=False):
         subjects = select_values(node, {"subject"}, JPCOAR | {DC})
         types = select_values(node, {"type"}, {DC})
         content_types = [value(n) for n in wrapper if n.tag == "{" + LOCAL + "}contentType" and text(n)] if wrapper is not None else []
+        csv_row = wrapper.find("{urn:nihu-local:database-catalogue:1}csvRow") if wrapper is not None else None
+        source_fields = {n.get("name"): n.text or "" for n in csv_row} if csv_row is not None else {}
+        if source_fields:
+            content_types = [{"value": v.strip(), "lang": "", "type": ""} for v in source_fields.get("Types of contents", "").split("|") if v.strip()]
         languages = select_values(node, {"language"}, {DC})
         access = select_values(node, {"accessRights"}, {DCT})
         identifiers = select_values(node, {"identifier"}, JPCOAR | {DC})
@@ -134,7 +141,7 @@ def read_records(path, repair_html_entities=False):
         identity = source_id or json.dumps([titles, creators, identifiers], ensure_ascii=False, sort_keys=True)
         base_id = hashlib.sha256(identity.encode()).hexdigest()[:20]
         ids[base_id] += 1
-        record_id = base_id if ids[base_id] == 1 else f"{base_id}-{ids[base_id]}"
+        record_id = stable_page_id or (base_id if ids[base_id] == 1 else f"{base_id}-{ids[base_id]}")
         if ids[base_id] > 1:
             warnings.append(f"Repeated identity retained as {record_id}")
         if not titles:
@@ -157,11 +164,13 @@ def read_records(path, repair_html_entities=False):
         for child in node:
             flatten(child)
         for item in content_types:
-            fields.append({"name": "contentType (local; original dc:type)", **item, "attributes": {"sourceField": "dc:type"}})
+            fields.append({"name": "Types of contents (CSV)" if source_fields else "contentType (local; original dc:type)", **item, "attributes": {"sourceField": "Types of contents" if source_fields else "dc:type"}})
+        for key, val in source_fields.items():
+            if val: fields.append({"name": "CSV / " + key, "value": val, "lang": "", "type": "", "attributes": {}})
         entries.append(dict(id=record_id, source_id=source_id, titles=titles, alternatives=alternatives,
                             descriptions=descriptions, creators=creators, publishers=publishers,
                             subjects=subjects, types=types, content_types=content_types, languages=languages, access=access,
-                            identifiers=identifiers, links=links, fields=fields,
+                            identifiers=identifiers, links=links, fields=fields, source_fields=source_fields,
                             search=normalize(" ".join([source_id] + [f["value"] for f in fields]))))
     # Tombstones generally have no metadata, so count them separately.
     deleted = sum(1 for n in root.iter() if local(n.tag) == "header" and namespace(n.tag) in (OAI, "") and n.get("status") == "deleted")

@@ -60,6 +60,10 @@ def names(values, lang):
 
 
 def display_title(record, lang):
+    if lang == "ja" and record.get("source_fields"):
+        label = record["source_fields"].get("Japanese Title") or record["source_fields"].get("Original Title")
+        if label:
+            return label
     # Japanese alternative titles often accompany an untagged English dc:title.
     matching = [v for v in record["titles"] + record["alternatives"] if v["lang"].lower().split("-")[0] == lang]
     return preferred(matching or record["titles"], lang) or WORDS[lang]["untitled"]
@@ -102,9 +106,12 @@ def footer(config, lang, prefix):
                         [("jpcoar.xml", "xml"), ("records.csv", "csv"), ("records.json", "json"), ("catalogue.xml", "original")])
     original = ""
     if config.get("original_input"):
-        label = "Original XML distribution (unmodified)" if lang == "en" else "元のXMLの提供（変更なし）"
+        label = "Original exports (unmodified)" if lang == "en" else "元のCSV・XMLの提供（変更なし）"
         original = f'<div><h2>{label}</h2><a href="{prefix}original/index.html">{label}</a></div>'
     experiment = "Experimental SSG data (modified derivative)" if lang == "en" else "実験的SSG用データ（加工版）"
+    if config.get("source_csv"):
+        label = "Supplemental JSON" if lang == "en" else "補足JSON"
+        downloads += f'<a href="{prefix}experimental/supplement.json" download>{label}</a>'
     date = f'<span>{w["snapshot"]}: {esc(source["date"])}</span>' if source.get("date") else ""
     attribution = f'<p>{w["source"]}: {source_html} {date}</p>' if source_name or date else ""
     related_links = []
@@ -161,8 +168,8 @@ def render_index(records, config, lang):
     notice_link_text = localized(config, "notice_original_link", lang)
     if config.get("original_input") and notice_link_text and notice_link_text in notice:
         label = esc(notice_link_text)
-        filename = esc(Path(config["original_input"]).name)
-        notice_text = notice_text.replace(label, f'<a href="{prefix}original/{filename}" download>{label}</a>', 1)
+        filename = "index.html"
+        notice_text = notice_text.replace(label, f'<a href="{prefix}original/{filename}">{label}</a>', 1)
     notice_html = f'<aside class="notice">{notice_text}</aside>' if notice else ""
     body = f'''<main id="main"><section class="hero"><p class="eyebrow">{w['collection']}</p><div class="hero-row"><h1>{esc(localized(config, 'title', lang, 'JPCOAR Catalogue'))}</h1>
 <div class="total"><strong>{len(records)}</strong><span>{w['results']}</span></div></div><p class="intro">{esc(localized(config, 'description', lang))}</p>{notice_html}</section>
@@ -226,9 +233,14 @@ def write_data(output, input_path, records, config, report):
         metadata = ET.SubElement(ET.SubElement(collection, "record"), "metadata")
         exported = copy.deepcopy(n)
         legacy = [e.text for e in p if e.tag == "{" + LOCAL + "}contentType" and e.text] if p is not None else []
+        if p is not None:
+            csvrow = p.find("{urn:nihu-local:database-catalogue:1}csvRow")
+            if csvrow is not None:
+                values = {e.get("name"): e.text or "" for e in csvrow}
+                legacy = [v.strip() for v in values.get("Types of contents", "").split("|") if v.strip()]
         if legacy:
             note = ET.Element("{https://schema.datacite.org/meta/kernel-4/}description", {"descriptionType": "Other"})
-            note.text = "Contained material types (from original dc:type metadata): " + "; ".join(legacy)
+            note.text = "Contained material types (Types of contents): " + "; ".join(legacy)
             # description precedes publisher, date, language and type in JPCOAR.
             earlier = {"title", "alternative", "creator", "contributor", "accessRights", "rights", "rightsHolder", "subject", "description"}
             position = next((i for i, child in enumerate(exported) if local(child.tag) not in earlier), len(exported))
@@ -242,6 +254,10 @@ def write_data(output, input_path, records, config, report):
         writer.writerow(["id", "source_id", *fields])
         for r in records:
             writer.writerow([r["id"], csv_safe(r["source_id"]), *[csv_safe(" | ".join(v["value"] for v in r[f])) for f in fields]])
+    if config.get("source_csv"):
+        (data / "records.csv").rename(data / "search-records.csv")
+        shutil.copyfile(config["_source_csv_path"], data / "records.csv")
+        shutil.copyfile(config["_supplement_path"], data / "supplement.json")
     (data / "build-report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
@@ -260,11 +276,17 @@ def build(config_path, output):
         raise ValueError("page_size must be between 1 and 200")
     input_path = (config_path.parent / config["input"]).resolve()
     original_path = (config_path.parent / config["original_input"]).resolve() if config.get("original_input") else None
-    protected = (ROOT, config_path, input_path) + ((original_path,) if original_path else ())
+    source_paths = tuple((config_path.parent / config[k]).resolve() for k in ("source_csv", "supplement", "original_csv") if config.get(k))
+    protected = source_paths + (ROOT, config_path, input_path) + ((original_path,) if original_path else ())
     if any(p.is_relative_to(output) for p in protected) or output.is_relative_to(ROOT / "assets") or output.is_relative_to(ROOT / "jpcoar_ssg"):
         raise ValueError("Output would overwrite source files")
     if output.exists() and (not output.is_dir() or not (output / ".jpcoar-ssg").is_file()):
         raise ValueError("Refusing to replace an existing output without a .jpcoar-ssg marker")
+    if config.get("source_csv"):
+        from catalogue_source import compile_sources
+        config["_source_csv_path"] = (config_path.parent / config["source_csv"]).resolve()
+        config["_supplement_path"] = (config_path.parent / config["supplement"]).resolve()
+        compile_sources(config["_source_csv_path"], config["_supplement_path"], input_path, input_path.parent / "source-build-report.json")
     records, report = read_records(input_path, config.get("repair_html_entities", False))
     report["source_file"] = input_path.name
     output.parent.mkdir(parents=True, exist_ok=True)
@@ -284,7 +306,12 @@ def build(config_path, output):
             original = stage / "original"
             original.mkdir()
             shutil.copyfile(original_path, original / original_path.name)
-            (original / "index.html").write_text(f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>元のXML / Original XML</title><link rel="stylesheet" href="../assets/style.css"></head><body><main id="main"><h1>元のXML / Original XML</h1><p>元サイトから取得したXMLを、内容を変更せずに提供しています。実験的な静的検索サイトおよび加工版XMLとは別の配布物です。元データに含まれる不整合もそのまま残しています。</p><p lang="en">This is the original XML as provided, unchanged, including any source inconsistencies. It is distributed separately from the experimental static catalogue and its modified XML.</p><p><a download href="{esc(original_path.name)}">{esc(original_path.name)}</a></p><p>Resource Links in the Resource Guide by NIHU DH — <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a></p><p>一括利用の際は本ガイドへの謝辞・出典表記をいただけますと幸いです（任意）。Acknowledgment of the Resource Guide would be appreciated when using the collection as a whole.</p><p><a href="../index.html">実験的SSG / Experimental catalogue</a></p></main></body></html>''', encoding="utf-8")
+            csv_download = ""
+            if config.get("original_csv"):
+                csv_path = (config_path.parent / config["original_csv"]).resolve()
+                shutil.copyfile(csv_path, original / csv_path.name)
+                csv_download = f'<p><a download href="{esc(csv_path.name)}">CSV: {esc(csv_path.name)}</a></p>'
+            (original / "index.html").write_text(f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>元のCSV・XML / Original CSV and XML</title><link rel="stylesheet" href="../assets/style.css"></head><body><main id="main"><h1>元のCSV・XML / Original CSV and XML</h1><p>元サイトから取得したCSV・XMLを、内容を変更せずに提供しています。実験的な静的検索サイトおよび加工版XMLとは別の配布物です。元データに含まれる不整合もそのまま残しています。</p><p lang="en">These are the original CSV and XML as provided, unchanged, including any source inconsistencies. They are distributed separately from the experimental static catalogue and its modified XML.</p>{csv_download}<p><a download href="{esc(original_path.name)}">{esc(original_path.name)}</a></p><p>Resource Links in the Resource Guide by NIHU DH — <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a></p><p>一括利用の際は本ガイドへの謝辞・出典表記をいただけますと幸いです（任意）。Acknowledgment of the Resource Guide would be appreciated when using the collection as a whole.</p><p><a href="../index.html">実験的SSG / Experimental catalogue</a></p></main></body></html>''', encoding="utf-8")
         write_data(stage, input_path, records, config, report)
         (stage / ".nojekyll").touch()
         (stage / ".jpcoar-ssg").write_text("Generated output; safe to replace.\n", encoding="utf-8")

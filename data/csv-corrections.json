@@ -1,0 +1,2206 @@
+{
+  "source": "1792652894.csv",
+  "source_sha256": "24ee11fff6a548b701f52ec04501550cd00228591a33824f9de54fc111f35cfd",
+  "corrected": "resources.csv",
+  "corrected_sha256": "022c2ff4eb0846b07743d0bff041064d52a321bbbbc7ea64573a62996a57ac17",
+  "policy": "Format repairs and approved broad DDC additions only. Unmapped semantics retained without guesses. Complete URLs come from CSV, not XML reconstruction.",
+  "changes": [
+    {
+      "id": "675",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "676",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "678",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "679",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "681",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "682",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "684",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "685",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "686",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "687",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "688",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "689",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "691",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "692",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "693",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "694",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "696",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "697",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "698",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "699",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "700",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "701",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "702",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "703",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "704",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "705",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "707",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "708",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "709",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "710",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "711",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "712",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "713",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "714",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "715",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "718",
+      "field": "DDC subject",
+      "before": "",
+      "after": "200",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "721",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "722",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "725",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "726",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "728",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700|900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "729",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700|900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "732",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "733",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "734",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "736",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "737",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "738",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "739",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "741",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "746",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "747",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "748",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "749",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "751",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "753",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "754",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "755",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "756",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "757",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "758",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "761",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "766",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "767",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "768",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "771",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "772",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "773",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "774",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "775",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "776",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "777",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "778",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "780",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "781",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "783",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "785",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "786",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "787",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "788",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "791",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "792",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "793",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700|900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "795",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "797",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "798",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "799",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "800",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "801",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "802",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "804",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "806",
+      "field": "DDC subject",
+      "before": "",
+      "after": "200",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "812",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "814",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900|200",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "816",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "819",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "823",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "824",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "825",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "826",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "827",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "832",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "833",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "835",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "836",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "837",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "838",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "839",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "840",
+      "field": "DDC subject",
+      "before": "",
+      "after": "200",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "841",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "844",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "845",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "846",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "852",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "853",
+      "field": "DDC subject",
+      "before": "",
+      "after": "200",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "854",
+      "field": "DDC subject",
+      "before": "",
+      "after": "200",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "855",
+      "field": "DDC subject",
+      "before": "",
+      "after": "200",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "856",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "857",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "858",
+      "field": "DDC subject",
+      "before": "",
+      "after": "200",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "859",
+      "field": "DDC subject",
+      "before": "",
+      "after": "200",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "860",
+      "field": "DDC subject",
+      "before": "",
+      "after": "200",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "861",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "862",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "863",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "865",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700|900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "866",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "867",
+      "field": "DDC subject",
+      "before": "",
+      "after": "200",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "871",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "877",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "880",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "881",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "883",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "884",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "885",
+      "field": "DDC subject",
+      "before": "",
+      "after": "200",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "886",
+      "field": "DDC subject",
+      "before": "",
+      "after": "200",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "887",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "888",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "891",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "893",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "894",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "898",
+      "field": "DDC subject",
+      "before": "",
+      "after": "200",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "899",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "900",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "902",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "904",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "905",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "906",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "908",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "909",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "911",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "913",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "915",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "917",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "919",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "922",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "925",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "926",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "927",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "928",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "929",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "930",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "933",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "1003",
+      "field": "Language of contents",
+      "before": "jpn, eng",
+      "after": "jpn|eng",
+      "reason": "entity or language syntax repair"
+    },
+    {
+      "id": "1005",
+      "field": "Language of contents",
+      "before": "jpn, eng",
+      "after": "jpn|eng",
+      "reason": "entity or language syntax repair"
+    },
+    {
+      "id": "1005",
+      "field": "DDC subject",
+      "before": "708",
+      "after": "708|700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "1006",
+      "field": "Language of contents",
+      "before": "en",
+      "after": "eng",
+      "reason": "entity or language syntax repair"
+    },
+    {
+      "id": "1010",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "301",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "407",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "408",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "409",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "411",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "413",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "416",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "419",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "429",
+      "field": "DDC subject",
+      "before": "",
+      "after": "200",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "430",
+      "field": "DDC subject",
+      "before": "",
+      "after": "200",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "431",
+      "field": "DDC subject",
+      "before": "",
+      "after": "200",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "432",
+      "field": "DDC subject",
+      "before": "",
+      "after": "200",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "434",
+      "field": "DDC subject",
+      "before": "",
+      "after": "200|900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "435",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "512",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "515",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "516",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "518",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "519",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "520",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "523",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "524",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "525",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "526",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "533",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "534",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "535",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "537",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "538",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "543",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "544",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "545",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "546",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "547",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "551",
+      "field": "DDC subject",
+      "before": "",
+      "after": "200",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "563",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "564",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "566",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "567",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "572",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "579",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "581",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "587",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "591",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "592",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "593",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "594",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "596",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "598",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "599",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "600",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "601",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "602",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "606",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "608",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "609",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "610",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "614",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "615",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "619",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "620",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "621",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "622",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "623",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "624",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "625",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "627",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "628",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "629",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "630",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "631",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "633",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "634",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "635",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "636",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "637",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "638",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "639",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "640",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "641",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "642",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "643",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "644",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "645",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "646",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "647",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "648",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "650",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "651",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "652",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "653",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "655",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "657",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "658",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "659",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "660",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "663",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "664",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "667",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "668",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "669",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "670",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "671",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "672",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "674",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "935",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "937",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "940",
+      "field": "DDC subject",
+      "before": "",
+      "after": "200",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "944",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "945",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "946",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "947",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "948",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "949",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "950",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "951",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "953",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "956",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "957",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "958",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "959",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "961",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "962",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "964",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "967",
+      "field": "DDC subject",
+      "before": "",
+      "after": "200",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "968",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "979",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "982",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "983",
+      "field": "DDC subject",
+      "before": "",
+      "after": "700",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "984",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "985",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "986",
+      "field": "DDC subject",
+      "before": "",
+      "after": "900",
+      "reason": "approved broad DDC mapping"
+    },
+    {
+      "id": "858",
+      "field": "Resource URL",
+      "before": "",
+      "after": "https://d-museum.kokugakuin.ac.jp/jinja/stateindex/",
+      "reason": "User-supplied URL verified against the provider page and existing metadata",
+      "verified_on": "2026-10-23",
+      "evidence_url": "https://d-museum.kokugakuin.ac.jp/jinja/explanatorynote/",
+      "verification": "The ancient Shinto database describes the same Nihon Shoki and Six National Histories scope as this record."
+    },
+    {
+      "id": "1009",
+      "field": "Resource URL",
+      "before": "",
+      "after": "https://eiichi.shibusawa.or.jp/denkishiryo/digital/main/",
+      "reason": "User-supplied URL verified against the provider page and existing metadata",
+      "verified_on": "2026-10-23",
+      "evidence_url": "https://eiichi.shibusawa.or.jp/denkishiryo/digital/main/",
+      "verification": "Provider page identifies the digital Shibusawa Eiichi Denki Shiryo."
+    }
+  ],
+  "url_recoveries": [
+    {
+      "id": "815",
+      "before": "http://maps.gsi.go.jp/#5/36.104611/140.084556/&base=std&ls=std&disp=1&lcd=blank…",
+      "after": "http://maps.gsi.go.jp/#5/36.104611/140.084556/&base=std&ls=std&disp=1&lcd=blank&vs=c1j0h0k0l0u0t0z0r0s0f2&d=v"
+    },
+    {
+      "id": "840",
+      "before": "https://jodoshuzensho.jp/daijiten/index.php/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9…",
+      "after": "https://jodoshuzensho.jp/daijiten/index.php/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8"
+    },
+    {
+      "id": "846",
+      "before": "https://chuseimonjo.net/?fbclid=IwAR0fOLpQ5lACtRyF7aqsAL1hJrHUuqWg-VQQtN-2OxUWS…",
+      "after": "https://chuseimonjo.net/?fbclid=IwAR0fOLpQ5lACtRyF7aqsAL1hJrHUuqWg-VQQtN-2OxUWSPsbqiFnNmmgJmM#/"
+    },
+    {
+      "id": "855",
+      "before": "http://library.rikkyo.ac.jp/digitallibrary/shojicollection/explain/explain_01.h…",
+      "after": "http://library.rikkyo.ac.jp/digitallibrary/shojicollection/explain/explain_01.html"
+    },
+    {
+      "id": "862",
+      "before": "https://archive.waseda.jp/archive/subDB-top.html?arg={%22item_per_page%22:20,%2…",
+      "after": "https://archive.waseda.jp/archive/subDB-top.html?arg={%22item_per_page%22:20,%22sortby%22:[%222059a%22,%22ASC%22],%22view%22:%22display-simple%22,%22subDB_id%22:%22129%22,%22advanced_search%22:false}&lang=en"
+    },
+    {
+      "id": "863",
+      "before": "https://archive.waseda.jp/archive/index.html?arg={%22advanced_search%22:false}&…",
+      "after": "https://archive.waseda.jp/archive/index.html?arg={%22advanced_search%22:false}&lang=en"
+    },
+    {
+      "id": "896",
+      "before": "https://cultural.jp/en?fbclid=IwAR2IsKsHBK47q3HXjkHAhV-yinojL6iaJCvySqOi41ew10f…",
+      "after": "https://cultural.jp/en?fbclid=IwAR2IsKsHBK47q3HXjkHAhV-yinojL6iaJCvySqOi41ew10fMrFEDL7R0is8"
+    },
+    {
+      "id": "925",
+      "before": "https://docs.google.com/forms/d/e/1FAIpQLSfaPdOTVMiVCVMDV1BKmvgTWSnpt0kqRq8wWyb…",
+      "after": "https://docs.google.com/forms/d/e/1FAIpQLSfaPdOTVMiVCVMDV1BKmvgTWSnpt0kqRq8wWybeObGy6VsVzw/viewform"
+    },
+    {
+      "id": "409",
+      "before": "https://archive.waseda.jp/archive/index.html?arg={%22advanced_search%22:false,%…",
+      "after": "https://archive.waseda.jp/archive/index.html?arg={%22advanced_search%22:false,%22institute_id%22:%223%22}&lang=en"
+    },
+    {
+      "id": "515",
+      "before": "http://www.tomioka-silk.jp.e.wv.hp.transer.com/tomioka-silk-mill/digital-archiv…",
+      "after": "http://www.tomioka-silk.jp.e.wv.hp.transer.com/tomioka-silk-mill/digital-archives/?_ga=1.251032451.485471322.1488417854"
+    },
+    {
+      "id": "573",
+      "before": "https://www.u-sacred-heart.ac.jp/library/display_collection/digital_gallaery/in…",
+      "after": "https://www.u-sacred-heart.ac.jp/library/display_collection/digital_gallaery/index.html"
+    },
+    {
+      "id": "948",
+      "before": "http://himeji-jyokaku.jp/?fbclid=IwAR24rCRTYVpRfopNV_b3d3ebX9SBkGYnoNmSfcVYftvB…",
+      "after": "http://himeji-jyokaku.jp/?fbclid=IwAR24rCRTYVpRfopNV_b3d3ebX9SBkGYnoNmSfcVYftvBrS9dIvHhlo3bYt8"
+    },
+    {
+      "id": "949",
+      "before": "https://www.tobunken.go.jp/archives/%E6%96%87%E5%8C%96%E8%B2%A1%E9%96%A2%E9%80%…",
+      "after": "https://www.tobunken.go.jp/archives/%E6%96%87%E5%8C%96%E8%B2%A1%E9%96%A2%E9%80%A3%E6%83%85%E5%A0%B1%E3%81%AE%E6%A4%9C%E7%B4%A2/%E5%A3%B2%E7%AB%8B%E7%9B%AE%E9%8C%B2%E4%BD%9C%E5%93%81%E6%83%85%E5%A0%B1/?lang=ja"
+    },
+    {
+      "id": "956",
+      "before": "https://seal.dhii.jp/?fbclid=IwAR3sM6LwmDGaO3clw_QkeJYB-R7THP2kLf_qUSGpY1JXtV6k…",
+      "after": "https://seal.dhii.jp/?fbclid=IwAR3sM6LwmDGaO3clw_QkeJYB-R7THP2kLf_qUSGpY1JXtV6kVAm3x1wEfOs"
+    },
+    {
+      "id": "971",
+      "before": "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/index_opendata.h…",
+      "after": "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/index_opendata.html"
+    }
+  ]
+}

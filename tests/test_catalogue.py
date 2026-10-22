@@ -93,51 +93,26 @@ class ReaderTests(unittest.TestCase):
 
 
 class BuildTests(unittest.TestCase):
-    def test_corrected_source_and_provenance(self):
-        corrections = json.loads((ROOT / 'data/corrections.json').read_text())
-        self.assertEqual(corrections['source_sha256'], hashlib.sha256((ROOT / 'data/1792652897.xml').read_bytes()).hexdigest())
-        self.assertEqual(corrections['corrected_sha256'], hashlib.sha256((ROOT / 'data/resources.xml').read_bytes()).hexdigest())
-        original, _ = read_records(ROOT / 'data/1792652897.xml', True)
-        corrected, report = read_records(ROOT / 'data/resources.xml')
-        rules = {r['category']: r['ddc'] for r in json.loads((ROOT / 'data/ddc-mapping.json').read_text())['mappings']}
-        self.assertEqual(len(original), len(corrected))
-        self.assertEqual(report['html_entity_repairs'], {})
-        for before, after in zip(original, corrected):
-            for field in ['titles', 'alternatives', 'creators', 'publishers', 'access']:
-                self.assertEqual(before[field], after[field])
-            self.assertEqual([v['value'] for v in before['types']], [v['value'] for v in after['content_types']])
-            self.assertEqual(len(after['types']), 1)
-            for field in ['descriptions', 'identifiers']:
-                self.assertEqual([v['value'] for v in before[field]], [v['value'] for v in after[field]])
-            existing = {s['value'] for s in before['subjects'] if s['type'] == 'DDC'}
-            additions = list(dict.fromkeys(rules[s['value']] for s in before['subjects'] if s['value'] in rules and rules[s['value']] not in existing))
-            self.assertEqual([s['value'] for s in after['subjects']], [s['value'] for s in before['subjects']] + additions)
-        self.assertEqual(corrections['correction_counts']['lang_to_xml_lang'], 315)
-        self.assertEqual(corrections['correction_counts']['add_mapped_ddc'], 303)
-        ddc_report = json.loads((ROOT / 'data/ddc-assignments.json').read_text())
-        types = json.loads((ROOT / 'data/resource-type-assignments.json').read_text())
-        self.assertEqual(ddc_report['output_sha256'], types['input_sha256'])
-        self.assertEqual(types['output_sha256'], corrections['corrected_sha256'])
-        self.assertEqual(types['type_counts'], {'interactive resource': 485, 'dataset': 14, 'software': 2})
-        self.assertEqual(ddc_report['mapping_sha256'], hashlib.sha256((ROOT / 'data/ddc-mapping.json').read_bytes()).hexdigest())
-        self.assertEqual(ddc_report['assigned_records'], 297)
-        self.assertEqual(ddc_report['assignments_by_ddc'], {'700': 150, '900': 131, '200': 22})
-
-    def test_classification_is_idempotent_and_checks_provenance(self):
-        with tempfile.TemporaryDirectory() as temporary:
-            base = Path(temporary)
-            paths = [base / name for name in ('resources.xml', 'corrections.json', 'resource-type-assignments.json')]
-            for path in paths:
-                path.write_bytes((ROOT / 'data' / path.name).read_bytes())
-            source, corrections, report = paths
-            before = [p.read_bytes() for p in paths]
-            classify(source, ROOT / 'data/resource-type-policy.json', corrections, report)
-            self.assertEqual(before, [p.read_bytes() for p in paths])
-            source.write_bytes(source.read_bytes() + b' ')
-            modified = source.read_bytes()
-            with self.assertRaisesRegex(ValueError, 'provenance'):
-                classify(source, ROOT / 'data/resource-type-policy.json', corrections, report)
-            self.assertEqual(source.read_bytes(), modified)
+    def test_csv_sources_preserve_values_and_original_page_ids(self):
+        from catalogue_source import generate, q
+        with (ROOT / 'data/resources.csv').open(encoding='utf-8-sig', newline='') as handle:
+            rows = list(csv.DictReader(handle))
+        raw, report = generate(ROOT / 'data/resources.csv', ROOT / 'data/supplement.json')
+        self.assertEqual(raw, (ROOT / 'data/resources.xml').read_bytes())
+        self.assertEqual(report['records'], 501)
+        self.assertEqual(len(report['warnings']), 2)
+        tree = ET.fromstring(raw)
+        for row, record in zip(rows, tree.findall(q('nihu:records')+'/'+q('nihu:record'))):
+            stored = {n.get('name'): n.text or '' for n in record.find(q('nihu:csvRow'))}
+            self.assertEqual(row, stored)
+        current, _ = read_records(ROOT / 'data/resources.xml')
+        assignments = json.loads((ROOT / 'data/history/resource-type-assignments.json').read_text())
+        self.assertEqual([r['id'] for r in current], [a['record_id'] for a in assignments['assignments']])
+        self.assertEqual(sum(len(r['content_types']) for r in current), 9)
+        correction = json.loads((ROOT / 'data/csv-corrections.json').read_text())
+        self.assertEqual(len(correction['url_recoveries']), 15)
+        self.assertEqual(correction['corrected_sha256'], hashlib.sha256((ROOT / 'data/resources.csv').read_bytes()).hexdigest())
+        self.assertEqual(correction['source_sha256'], hashlib.sha256((ROOT / 'data/1792652894.csv').read_bytes()).hexdigest())
 
     def test_ddc_addition_is_idempotent_and_preserves_unmapped_and_existing_values(self):
         with tempfile.TemporaryDirectory() as temporary:
@@ -180,10 +155,12 @@ class BuildTests(unittest.TestCase):
                 self.assertEqual(len(list(csv.DictReader(handle))), 501)
             pages = list(output.rglob('*.html'))
             self.assertEqual(len(pages), 1005)
+            self.assertEqual((output / 'experimental/records.csv').read_bytes(), (ROOT / 'data/resources.csv').read_bytes())
+            self.assertEqual((output / 'original/1792652894.csv').read_bytes(), (ROOT / 'data/1792652894.csv').read_bytes())
             self.assertEqual((output / 'original/1792652897.xml').read_bytes(), (ROOT / 'data/1792652897.xml').read_bytes())
             exported = ET.parse(output / 'experimental/jpcoar.xml').getroot()
             self.assertFalse(any(e.tag.startswith('{urn:jpcoar-static-catalogue:1}') for e in exported.iter()))
-            notes = [e.text for e in exported.iter() if e.text and e.text.startswith('Contained material types (from original dc:type metadata):')]
+            notes = [e.text for e in exported.iter() if e.text and e.text.startswith('Contained material types (Types of contents):')]
             self.assertEqual(len(notes), 8)
             self.assertEqual(sum(len(r['content_types']) for r in records), 9)
             for path in pages:
