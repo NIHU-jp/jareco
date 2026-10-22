@@ -1,0 +1,48 @@
+# Paths are relative to this configuration file. Replace input to reuse the SSG.
+input = "data/resources.xml"
+original_input = "data/1792652897.xml"
+default_language = "en"
+languages = ["en", "ja"]
+facets = ["subjects", "creators", "types", "languages", "access", "content_types"]
+page_size = 20
+# Corrected XML is parsed strictly. The original and correction log are in data/.
+
+[title]
+en = "Resource Guide for Japanese Studies and Humanities in Japan"
+ja = "日本研究・人文学リソースガイド"
+
+[description]
+en = "Explore links to collections, libraries, databases and research resources for Japanese studies and the humanities."
+ja = "日本研究・人文学に関するコレクション、図書館、データベースなどのリンク情報を探せます。"
+
+[notice]
+en = "Experimental searchable snapshot. Metadata has been modified, including provisional resource types and broad DDC mappings. The unmodified original XML is distributed separately."
+ja = "実験的な静的検索サイトです。資源タイプの暫定分類や大分類DDCの付与を含む加工データを使用しています。変更していない元のXMLは別に提供しています。"
+
+[notice_original_link]
+en = "unmodified original XML"
+ja = "変更していない元のXML"
+
+[source]
+name = "Resource Guide by NIHU DH"
+url = "https://guides2.nihu.jp/"
+# This is the source file's snapshot date, not the build date.
+date = "2026-10-22"
+
+[license]
+name = "CC0 1.0"
+url = "https://creativecommons.org/publicdomain/zero/1.0/"
+en = "The downloadable resource-link data is provided under CC0 1.0. If you use the collection as a whole, acknowledgment of the Resource Guide by NIHU DH would be appreciated. Linked resources have their own terms of use."
+ja = "リンク情報のデータはCC0 1.0で提供されています。コレクション全体を利用される場合は、Resource Guide by NIHU DHをご紹介いただけますと幸いです（任意）。リンク先の資料には、それぞれの利用条件が適用されます。"
+
+[[related_sites]]
+url = "https://nihu-jp.github.io/db-list/"
+[related_sites.title]
+ja = "人間文化研究機構 6機関と本部のデータベース"
+en = "NIHU Databases — Six Institutes and Headquarters"
+
+[[related_sites]]
+url = "https://nihu-jp.github.io/jareco/"
+[related_sites.title]
+ja = "この実験サイト（GitHub Pages）"
+en = "This experimental catalogue on GitHub Pages"

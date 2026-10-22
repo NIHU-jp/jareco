@@ -1,0 +1,75 @@
+{
+  "source": "resources.xml",
+  "source_sha256": "5e8188807c09ca1fe0ae89442e7766fcbd9485d041aaa51c778f266b822a8ae6",
+  "schema": "JPCOAR 2.0.0 (2022-12-01)",
+  "records": 501,
+  "valid_records": 493,
+  "invalid_records": 8,
+  "error_counts": {
+    "Element '{https://github.com/JPCOAR/schema/blob/master/2.0/}identifier': 'https://jodoshuzensho.jp/daijiten/index.php/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9…' is not a valid value of the atomic type 'xs:anyURI'.": 1,
+    "Element '{https://github.com/JPCOAR/schema/blob/master/2.0/}jpcoar': Missing child element(s). Expected is one of ( {https://schema.datacite.org/meta/kernel-4/}version, {http://namespace.openaire.eu/schema/oaire/}version, {https://github.com/JPCOAR/schema/blob/master/2.0/}identifier ).": 2,
+    "Element '{https://github.com/JPCOAR/schema/blob/master/2.0/}identifier': 'https://archive.waseda.jp/archive/subDB-top.html?arg={%22item_per_page%22:20,%2…' is not a valid value of the atomic type 'xs:anyURI'.": 1,
+    "Element '{http://purl.org/dc/terms/}accessRights': [facet 'enumeration'] The value '利用条件あり' is not an element of the set {'embargoed access', 'metadata only access', 'open access', 'restricted access'}.": 1,
+    "Element '{http://purl.org/dc/elements/1.1/}language': [facet 'pattern'] The value 'その他' is not accepted by the pattern '[a-z]{3}'.": 1,
+    "Element '{https://github.com/JPCOAR/schema/blob/master/2.0/}identifier': 'https://archive.waseda.jp/archive/index.html?arg={%22advanced_search%22:false,%…' is not a valid value of the atomic type 'xs:anyURI'.": 1,
+    "Element '{https://github.com/JPCOAR/schema/blob/master/2.0/}identifier': 'https://www.tobunken.go.jp/archives/%E6%96%87%E5%8C%96%E8%B2%A1%E9%96%A2%E9%80%…' is not a valid value of the atomic type 'xs:anyURI'.": 1
+  },
+  "records_with_errors": [
+    {
+      "record": 155,
+      "title": "WEB版新纂浄土宗大辞典",
+      "errors": [
+        "Element '{https://github.com/JPCOAR/schema/blob/master/2.0/}identifier': 'https://jodoshuzensho.jp/daijiten/index.php/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9…' is not a valid value of the atomic type 'xs:anyURI'."
+      ]
+    },
+    {
+      "record": 173,
+      "title": "神道・神社資料集成",
+      "errors": [
+        "Element '{https://github.com/JPCOAR/schema/blob/master/2.0/}jpcoar': Missing child element(s). Expected is one of ( {https://schema.datacite.org/meta/kernel-4/}version, {http://namespace.openaire.eu/schema/oaire/}version, {https://github.com/JPCOAR/schema/blob/master/2.0/}identifier )."
+      ]
+    },
+    {
+      "record": 177,
+      "title": "舞台衣装データベース",
+      "errors": [
+        "Element '{https://github.com/JPCOAR/schema/blob/master/2.0/}identifier': 'https://archive.waseda.jp/archive/subDB-top.html?arg={%22item_per_page%22:20,%2…' is not a valid value of the atomic type 'xs:anyURI'."
+      ]
+    },
+    {
+      "record": 240,
+      "title": "明治期官僚・官職データベース　ver.2.1",
+      "errors": [
+        "Element '{http://purl.org/dc/terms/}accessRights': [facet 'enumeration'] The value '利用条件あり' is not an element of the set {'embargoed access', 'metadata only access', 'open access', 'restricted access'}."
+      ]
+    },
+    {
+      "record": 255,
+      "title": "Shibusawa Eiichi Denki Shiryo Digital Version",
+      "errors": [
+        "Element '{https://github.com/JPCOAR/schema/blob/master/2.0/}jpcoar': Missing child element(s). Expected is one of ( {https://schema.datacite.org/meta/kernel-4/}version, {http://namespace.openaire.eu/schema/oaire/}version, {https://github.com/JPCOAR/schema/blob/master/2.0/}identifier )."
+      ]
+    },
+    {
+      "record": 256,
+      "title": "[Japan, albums of old photographs]",
+      "errors": [
+        "Element '{http://purl.org/dc/elements/1.1/}language': [facet 'pattern'] The value 'その他' is not accepted by the pattern '[a-z]{3}'."
+      ]
+    },
+    {
+      "record": 289,
+      "title": "Tsubouchi Memorial Theatre Museum Digital Archives Collection The",
+      "errors": [
+        "Element '{https://github.com/JPCOAR/schema/blob/master/2.0/}identifier': 'https://archive.waseda.jp/archive/index.html?arg={%22advanced_search%22:false,%…' is not a valid value of the atomic type 'xs:anyURI'."
+      ]
+    },
+    {
+      "record": 462,
+      "title": "売立目録作品情報",
+      "errors": [
+        "Element '{https://github.com/JPCOAR/schema/blob/master/2.0/}identifier': 'https://www.tobunken.go.jp/archives/%E6%96%87%E5%8C%96%E8%B2%A1%E9%96%A2%E9%80%…' is not a valid value of the atomic type 'xs:anyURI'."
+      ]
+    }
+  ]
+}

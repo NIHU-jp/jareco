@@ -1,0 +1,45 @@
+{
+  "id": "nihu-resource-guide-experimental-resource-types-v1",
+  "reviewed_on": "2026-10-23",
+  "experimental": true,
+  "policy": "Provisional classification of the resource introduced by each catalogue entry, not of its contained materials. Use interactive resource for online databases, search/browse services, catalogues and general web pages as a local export policy. Apply dataset/software exceptions only where the entry describes a separately distributed resource. Landing pages can describe datasets or software. Offering some downloadable data does not turn a whole service into a dataset. This is not a claim that all web pages meet the COAR definition precisely.",
+  "legacy_type_policy": "Preserve every original dc:type value as local contentType metadata outside jpcoar:jpcoar, tagged with its source field. Do not let these legacy values determine the new resource type. Include them as labelled explanatory text in the standard-only exchange XML.",
+  "vocabulary_reference": "https://schema.irdb.nii.ac.jp/ja/2.0/resource_type_vocabulary",
+  "types": {
+    "interactive resource": "http://purl.org/coar/resource_type/c_e9a0",
+    "dataset": "http://purl.org/coar/resource_type/c_ddb1",
+    "software": "http://purl.org/coar/resource_type/c_5ce6"
+  },
+  "default_type": "interactive resource",
+  "exceptions": [
+    {"record": 97, "title": "Collectors' Seals Database", "type": "dataset", "evidence_url": "https://kokubunken.repo.nii.ac.jp/records/4674", "evidence_basis": "source_metadata", "reason": "The supplied description explicitly says the resource has been published as a dataset in the repository since March 2023. Live record retrieval was rate-limited; availability and the destination remain to be rechecked."},
+    {"record": 102, "title": "明治期出版広告データベース", "type": "dataset", "evidence_url": "https://kokubunken.repo.nii.ac.jp/records/4731", "evidence_basis": "source_metadata_and_provider_migration_notice", "reason": "The supplied description identifies a repository dataset; the provider migration notice describes its preservation as research data. Availability is separate from its resource type."},
+    {"record": 104, "title": "歴史人物画像データベース", "type": "dataset", "evidence_url": "https://kokubunken.repo.nii.ac.jp/records/4736", "evidence_basis": "source_metadata_and_provider_migration_notice", "reason": "The supplied description identifies a repository dataset; the provider migration notice describes preservation as research data. The archived record can be metadata-only."},
+    {"record": 110, "title": "国会会議録・政府関係会議議事録等メタデータセット", "type": "dataset", "evidence_url": "https://www.nistep.go.jp/archives/35962/", "evidence_basis": "provider_page_and_source_metadata", "reason": "The entry introduces a named downloadable package of meeting-record metadata rather than a general search portal."},
+    {"record": 138, "title": "日本古典籍くずし字データセット", "type": "dataset", "evidence_url": "https://codh.rois.ac.jp/char-shape/", "evidence_basis": "provider_page", "reason": "The provider identifies downloadable character-coordinate and glyph-image data as a named dataset."},
+    {"record": 139, "title": "日本古典籍データセット", "type": "dataset", "evidence_url": "https://codh.rois.ac.jp/pmjt/", "evidence_basis": "provider_page", "reason": "The entry describes the named collection of open digitized-book data; the search interface is an access method for that collection."},
+    {"record": 140, "title": "江戸料理レシピデータセット", "type": "dataset", "evidence_url": "https://codh.rois.ac.jp/edo-cooking/", "evidence_basis": "provider_page", "reason": "The provider identifies a named dataset combining original images, transcriptions, translations and recipes."},
+    {"record": 141, "title": "KMNIST Dataset", "type": "dataset", "evidence_url": "https://codh.rois.ac.jp/kmnist/", "evidence_basis": "provider_page", "reason": "The provider distributes named machine-learning datasets in reusable data formats."},
+    {"record": 143, "title": "近代雑誌データセット", "type": "dataset", "evidence_url": "https://codh.rois.ac.jp/modern-magazine/", "evidence_basis": "provider_page", "reason": "The entry describes named open image/OCR-training datasets. Software linked from the same page is not the subject of this record."},
+    {"record": 145, "title": "IIIF Curation Viewer", "type": "software", "evidence_url": "https://codh.rois.ac.jp/software/iiif-curation-viewer/", "evidence_basis": "provider_page", "reason": "The entry describes a reusable IIIF viewer tool, with installation and software documentation, rather than one hosted image collection."},
+    {"record": 163, "title": "次世代デジタルライブラリーに搭載されているテキストデータ", "type": "dataset", "evidence_url": "https://github.com/ndl-lab/tugidigi-txtdata", "evidence_basis": "provider_repository_and_source_metadata", "reason": "The entry introduces distributed OCR text data in the provider's repository, not the digital-library service itself."},
+    {"record": 240, "title": "明治期官僚・官職データベース ver.2.1", "type": "dataset", "evidence_url": "data/1792652897.xml#record-240", "evidence_basis": "source_metadata", "reason": "The supplied description identifies Excel files distributed on application. The source URL is truncated and must be reviewed; no replacement URL or access-rights claim is invented."},
+    {"record": 249, "title": "IIIF Tsukushi Viewer", "type": "software", "evidence_url": "https://codh.rois.ac.jp/software/iiif-tsukushi-viewer/", "evidence_basis": "provider_page", "reason": "The provider documents a configurable IIIF viewer tool with installation settings; the hosted demos are separate access examples."},
+    {"record": 262, "title": "[Modern Japanese written language UniDic]", "type": "dataset", "evidence_url": "https://clrd.ninjal.ac.jp/unidic/download.html#unidic_bccwj", "evidence_basis": "provider_page", "reason": "The record introduces a specific downloadable morphological-analysis dictionary data package, not an online dictionary search service."},
+    {"record": 267, "title": "[Modern Colloquial Japanese Novel UniDic]", "type": "dataset", "evidence_url": "https://clrd.ninjal.ac.jp/unidic/download_all.html#unidic_novel", "evidence_basis": "provider_page_and_source_title", "reason": "The named UniDic variant is distributed as dictionary data for analysis. It is provisionally treated as data rather than the analysis software."},
+    {"record": 454, "title": "『廣瀬本万葉集』TEI/XMLデータ", "type": "dataset", "evidence_url": "https://github.com/KU-ORCAS/manyoshuTEI", "evidence_basis": "provider_repository_and_source_metadata", "reason": "The entry introduces a reusable TEI/XML transcription data collection; no standalone encoded-data subtype is assumed."}
+  ],
+  "review_notes": [
+    {"record": 105, "decision": "interactive resource", "reason": "The entry introduces a corpus-family website with multiple corpora and access methods. Individual downloadable corpora could be described separately."},
+    {"record": 144, "decision": "interactive resource", "reason": "Geoshape is a repository/service containing several distinct datasets, rather than one identified dataset."},
+    {"record": 185, "decision": "interactive resource", "reason": "A trained BERT model is a candidate exception, but the intended scope (model weights versus code) and JPCOAR 2.0 mapping need review. Keep the provisional default until resolved."},
+    {"record": 216, "decision": "interactive resource", "reason": "A repository landing page for a former search system does not alone establish which separately distributed data/software the entry identifies; review required."},
+    {"record": 239, "decision": "interactive resource", "reason": "JDCat is a discovery catalogue of datasets, not a single dataset."},
+    {"record": 246, "decision": "interactive resource", "reason": "The audio-corpus list introduces multiple resources, not a specific corpus package."},
+    {"record": 247, "decision": "interactive resource", "reason": "IDR is a repository/service introducing multiple data resources."},
+    {"record": 263, "decision": "interactive resource", "reason": "Meiji-Portraits is the website introduced by this entry. Its description also links a separate DOI dataset; the website is not reclassified as that dataset."},
+    {"record": 284, "decision": "interactive resource", "reason": "The title says dataset in Japanese but database in English and describes browsing; identify a reusable data package before separating it."},
+    {"record": 467, "decision": "interactive resource", "reason": "A curated list of NLP software/data resources is not itself each listed software package."},
+    {"record": 479, "decision": "interactive resource", "reason": "The geospatial platform provides access to multiple datasets; it is not a single dataset."}
+  ]
+}

@@ -1,0 +1,3068 @@
+{
+  "mapping": "nihu-resource-guide-ddc-main-classes-v1",
+  "mapping_file": "ddc-mapping.json",
+  "mapping_sha256": "0735ccce3aa4ff02fb45de526b7d44916281865b11391b0f73d2477bba9961df",
+  "input_sha256": "68e3fac17a65240dc40fe094eadf65d6d90a6eef077162f291f94489ff7fe708",
+  "output_sha256": "9e3ba3f0cdd9048b2d514ae69af45e07a982beb538583f0c7d3689ac39e9e56d",
+  "policy": "Keep every original subject. Add only the three approved main-class mappings. These are broad subject mappings, not item-level cataloguing or exact equivalences. Keep existing numeric DDC values unchanged. Do not infer mappings for other categories.",
+  "reference": {
+    "title": "OCLC DDC Summaries: First Summary, The Ten Main Classes",
+    "url": "https://www.oclc.org/content/dam/oclc/dewey/resources/summaries/deweysummaries.pdf",
+    "edition": "DDC 22 (2003)",
+    "pdf_page": 9
+  },
+  "assigned_records": 297,
+  "subject_assignments": 303,
+  "assignments_by_ddc": {
+    "700": 150,
+    "900": 131,
+    "200": 22
+  },
+  "added_this_run": {
+    "700": 150,
+    "900": 131,
+    "200": 22
+  },
+  "unmapped_category_counts": {
+    "Bibliography and Digital Libraries": 59,
+    "Overseas collections of Japanese Resources": 8,
+    "Ethnography and Folklore": 23,
+    "Literature and Linguistics": 47,
+    "Domestic and International Affairs": 13,
+    "Maps and Geology": 20,
+    "Research Societies, People, and Databases": 8,
+    "General": 31
+  },
+  "assignments": [
+    {
+      "record": 1,
+      "record_id": "4f1dd7d74163136d19e5",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 2,
+      "record_id": "a23e656a3e564f380765",
+      "title": "Collection Highlights",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 3,
+      "record_id": "1259c15038ed027023e4",
+      "title": "The Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 4,
+      "record_id": "48899c24527548857daa",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 5,
+      "record_id": "a9b2dc11a8828f7d465c",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 6,
+      "record_id": "ef306adf6029e2209029",
+      "title": "Collection Database",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 7,
+      "record_id": "452b629b49afb0a10b05",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 8,
+      "record_id": "478069b192df14b6a97f",
+      "title": "COLLECTIONS",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 9,
+      "record_id": "ec074c754bd2cccebc9a",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 10,
+      "record_id": "81e5e66e1de83b3ec3c6",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 11,
+      "record_id": "afba2e3cc612cb26414f",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 12,
+      "record_id": "f8e039b311224be05894",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 13,
+      "record_id": "4643cc6f232ede984d47",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 14,
+      "record_id": "c6a9e98de670ade6b3a5",
+      "title": "COLLECTION",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 15,
+      "record_id": "ecdc586067419f768a8f",
+      "title": "Gallery",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 16,
+      "record_id": "db672203a746c62685e7",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 17,
+      "record_id": "28f109ff0181ec4ba749",
+      "title": "Museum Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 18,
+      "record_id": "d27c790e8682d53ab41a",
+      "title": "Collection Introduction",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 19,
+      "record_id": "3d7b92f284086ecdb574",
+      "title": "Gallery of Masterpieces Collection",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 20,
+      "record_id": "8b23f5c4f4d97cb69734",
+      "title": "COLLECTION",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 21,
+      "record_id": "3c64f5d00f2d8895507f",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 22,
+      "record_id": "5f9215dfc030cb37085a",
+      "title": "The Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 23,
+      "record_id": "5bfdf30a89df5f67b4f7",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 24,
+      "record_id": "703eb9d91255b9b78b61",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 25,
+      "record_id": "c3c9a4cf18a40c86f064",
+      "title": "Collection Gallery",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 26,
+      "record_id": "256f53e5dcd49cc34316",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 27,
+      "record_id": "a05e8a33e36e9445ddfb",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 28,
+      "record_id": "90f931f42fcd05288d59",
+      "title": "COLLECTIONS",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 29,
+      "record_id": "75bef5da9160dc0baefe",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 30,
+      "record_id": "88ab88c410d751ca8bb3",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 31,
+      "record_id": "fd9d0adec71041d5472e",
+      "title": "Collections",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 32,
+      "record_id": "d106548a68daea30c7be",
+      "title": "WEB GALLERY",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 33,
+      "record_id": "7b9c1ca97cd1e0e1a893",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 34,
+      "record_id": "75ee52f5b2c4a2eceaf2",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 35,
+      "record_id": "e254a7231b5691eb5984",
+      "title": "COLLECTION",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 36,
+      "record_id": "ba15b56588b48625ba72",
+      "title": "Basic Terms of Shinto",
+      "category": "Religious Studies",
+      "ddc": "200",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 38,
+      "record_id": "57c8ebc70565a11451d5",
+      "title": "Database of Pioneering Women Researchers ,University Archives, Ochanomizu University",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 39,
+      "record_id": "0111d0268191bb9632dc",
+      "title": "Ochanomizu University Digital Archives",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 42,
+      "record_id": "b31192ae909412e4d2a2",
+      "title": "Chinese Painting Database",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 43,
+      "record_id": "ebf51987e74398c286a9",
+      "title": "List of Materials Owned by Eisei Bunko Museum",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 45,
+      "record_id": "772f3ad1b8823045f92a",
+      "title": "Tottori Digital Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 45,
+      "record_id": "772f3ad1b8823045f92a",
+      "title": "Tottori Digital Collection",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 46,
+      "record_id": "22de8e8e87ac5e915778",
+      "title": "ToMuCo : Tokyo Museum Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 46,
+      "record_id": "22de8e8e87ac5e915778",
+      "title": "ToMuCo : Tokyo Museum Collection",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 49,
+      "record_id": "999a4f913898ba57dd71",
+      "title": "Kokugakuin University Digital Museum",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 50,
+      "record_id": "47d269256eae143a0789",
+      "title": "Classic Books",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 51,
+      "record_id": "e7780e68900d2c70fe4d",
+      "title": "Collection-Osaka Metropolitan University",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 53,
+      "record_id": "7d003c28dbf2021d5b1a",
+      "title": "Mojizo(Image matching search for mokkan or cursive characters)",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 54,
+      "record_id": "3936d54ca9ee0ca80dde",
+      "title": "OPAM Collection Search System",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 55,
+      "record_id": "d6abdd1a5e175558cc23",
+      "title": "Peace Archives",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 56,
+      "record_id": "8e7a04acfefd9db5c131",
+      "title": "Search for Archive materials, Saitama Prefectural Museum of History and Folklore",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 58,
+      "record_id": "e217304f723d6de38b9c",
+      "title": "List of works and materials related to Shokado Shojo",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 62,
+      "record_id": "7e6d1c371ddb02e9ca10",
+      "title": "Collection-MIGISHI KOTARO Museum of ART",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 63,
+      "record_id": "45327f749464da5f04b7",
+      "title": "Collections-Kyushu Historical Museum",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 64,
+      "record_id": "1a1dfaa1cbfd92efb115",
+      "title": "Archive materials, Fukushima Museum",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 65,
+      "record_id": "c4760ae23b15189d103b",
+      "title": "Dictionary of Sources of Classical Japan",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 67,
+      "record_id": "1a5174a8b574e80044d7",
+      "title": "Rare materials, Tokushima University Library",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 69,
+      "record_id": "d1175a45517175ee287e",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 70,
+      "record_id": "827ccfe0c6aa331ecb92",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 71,
+      "record_id": "56f8669a99bf39e11365",
+      "title": "Collection gallery",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 72,
+      "record_id": "294ba1f8cbb1aaa78f5a",
+      "title": "The Collection of Nara Illustrated Books",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 73,
+      "record_id": "b8baa0d462ccde309d7d",
+      "title": "Nishikie archives, Ajinomoto Food Culture Center",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 74,
+      "record_id": "56d3b07b99608971bfc5",
+      "title": "Collection Database",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 77,
+      "record_id": "0ff0519b760200c22e9c",
+      "title": "Lantern Slides of the Nippon Rikkokai",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 82,
+      "record_id": "ce51ee4c46ef187e3a8e",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 83,
+      "record_id": "f3191ce94a18570eb7da",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 84,
+      "record_id": "eee45c86870448cd7a69",
+      "title": "Selected Works from the Gotoh Museum",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 87,
+      "record_id": "8896b7a84069a3f3e6c7",
+      "title": "WASAN (Japanese mathematics) Collection",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 88,
+      "record_id": "2d704d9f970c0e6b9b0c",
+      "title": "Collection Database",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 89,
+      "record_id": "cb2969fd5ac244f10e8b",
+      "title": "Online Catalog",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 90,
+      "record_id": "fc86e0973204fcfa7245",
+      "title": "Digital Archives, Aomori Prefectural Library",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 91,
+      "record_id": "67cfc7fb0cc18fc77c0f",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 92,
+      "record_id": "ceea59e7684c55f01dfe",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 93,
+      "record_id": "45436fc523375e5a82e3",
+      "title": "[Korean photographic postcards Database]",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 94,
+      "record_id": "c5dc13ccd24ea8b321d7",
+      "title": "近世期絵入百科事典",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 96,
+      "record_id": "7a9bf2b652407ca524b6",
+      "title": "Great Kanto Earthquake Japan of September 1923",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 97,
+      "record_id": "eb156822b2d3b82b5d7b",
+      "title": "Collectors' Seals Database",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 99,
+      "record_id": "34f5baacf571c70d700d",
+      "title": "データベース「日本と世界」",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 101,
+      "record_id": "8a5d81d02f3f4c0d2d36",
+      "title": "祭魚洞文庫旧蔵水産史料",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 102,
+      "record_id": "3a5a78c3e6711cd79c08",
+      "title": "明治期出版広告データベース",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 103,
+      "record_id": "1db624620809f9cf2031",
+      "title": "収蔵歴史アーカイブズデータベース",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 104,
+      "record_id": "3c8d7c33de43619055ee",
+      "title": "歴史人物画像データベース",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 107,
+      "record_id": "91ce530059278ab521fe",
+      "title": "沖縄歴史文献データベース検索",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 108,
+      "record_id": "3a33f29578ce19987ab7",
+      "title": "Japanese Animated Film Classics",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 109,
+      "record_id": "e683f9c35f7e1464970d",
+      "title": "Namazu-e Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 109,
+      "record_id": "e683f9c35f7e1464970d",
+      "title": "Namazu-e Collection",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 111,
+      "record_id": "e676999093cb1e12909d",
+      "title": "ひなぎく 国立国会図書館東日本大震災アーカイブ",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 113,
+      "record_id": "b486e042dc7fe32469eb",
+      "title": "メディア芸術データベース",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 114,
+      "record_id": "c00ed09a43355b79db4a",
+      "title": "漫画関連書籍検索",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 115,
+      "record_id": "e505c438f840d90c7d2a",
+      "title": "手塚治虫 TEZUKA OSAMU OFFICIAL",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 116,
+      "record_id": "566a5c6d7d2f1730f9ed",
+      "title": "手塚治虫 TEZUKA OSAMU OFFICIAL",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 117,
+      "record_id": "79c798b44aec8c31b2c9",
+      "title": "日本マンガ・文化論 マンガ文化の歴史",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 118,
+      "record_id": "f095826ed771233567ff",
+      "title": "年代別流行",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 120,
+      "record_id": "60aa6b8df0a6f12883d8",
+      "title": "古典画像にみる生活百景",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 122,
+      "record_id": "24fb31ea48edb3e3a61f",
+      "title": "俗信データベース",
+      "category": "Religious Studies",
+      "ddc": "200",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 127,
+      "record_id": "87121130b0cb309dfc52",
+      "title": "古典総合データベース",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 129,
+      "record_id": "fe53d7db57e249cbed90",
+      "title": "Shinto Jinja Database",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 129,
+      "record_id": "fe53d7db57e249cbed90",
+      "title": "Shinto Jinja Database",
+      "category": "Religious Studies",
+      "ddc": "200",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 131,
+      "record_id": "8435de631aae4ad11ced",
+      "title": "The Kyoto School Archive",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 134,
+      "record_id": "203a5cfb71e8756a3556",
+      "title": "Bibliographie zur historischen Japanforschung",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 138,
+      "record_id": "9a437cdd3ce398e31374",
+      "title": "日本古典籍くずし字データセット",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 139,
+      "record_id": "364d1863702900e1d024",
+      "title": "日本古典籍データセット",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 140,
+      "record_id": "2ee03b7d62ad14ca9e7c",
+      "title": "江戸料理レシピデータセット",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 141,
+      "record_id": "5ef2ef26ef562941a575",
+      "title": "KMNIST Dataset",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 142,
+      "record_id": "ec3ff6da3d8944b1b7ee",
+      "title": "顔貌コレクション（顔コレ）",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 147,
+      "record_id": "13ad43877432ddb95b24",
+      "title": "Kojiruien Full Text",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 148,
+      "record_id": "7a8070846bd993b5742b",
+      "title": "正倉院宝物検索",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 150,
+      "record_id": "9be55f3e0ae0aeb13043",
+      "title": "新聞マンガのデータベース",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 151,
+      "record_id": "d4a3d7d6e1177c385355",
+      "title": "Oral History Archives of Japanese Arts",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 152,
+      "record_id": "41756707a5a8b5711e37",
+      "title": "博覧会資料Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 153,
+      "record_id": "6aa134120fa416b0db84",
+      "title": "Digital Cultural Heritage",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 154,
+      "record_id": "9af2e7ec88f3d0453a79",
+      "title": "時事漫画",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 155,
+      "record_id": "f84e168fa8eaac73d0d4",
+      "title": "WEB版新纂浄土宗大辞典",
+      "category": "Religious Studies",
+      "ddc": "200",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 156,
+      "record_id": "df17aacd339e1af86457",
+      "title": "From Manuscripts & Block Prints to Typographic Prints, and then to Digital Data -With a Third Metamorphosis, a Renewal for Japanese Confucianism",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 159,
+      "record_id": "ed1ee139b2f8ecf493d3",
+      "title": "khirin",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 160,
+      "record_id": "3f418b9cae7bccdb2b72",
+      "title": "KuroNetくずし字認識サービス",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 161,
+      "record_id": "357011d11ea49b1e91f9",
+      "title": "日本の中世文書WEB",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 167,
+      "record_id": "34b1ed3465aab575500f",
+      "title": "DAAS Digital Archives for Architectural Space",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 168,
+      "record_id": "914f64d7338ea150485d",
+      "title": "明治学院大学大学図書館アーカイブス",
+      "category": "Religious Studies",
+      "ddc": "200",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 169,
+      "record_id": "d6f2145d916273090e65",
+      "title": "日本ナザレン教団",
+      "category": "Religious Studies",
+      "ddc": "200",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 170,
+      "record_id": "6bdc8b6a6d28f323e16a",
+      "title": "庄司浅水旧蔵 聖書・キリスト教関連文献資料 デジタルライブラリ",
+      "category": "Religious Studies",
+      "ddc": "200",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 171,
+      "record_id": "d892cf479a5454d94ffb",
+      "title": "新庄デジタルアーカイブ",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 172,
+      "record_id": "c2826e4d2ed4f1bc0f46",
+      "title": "歴史・民俗データベース",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 173,
+      "record_id": "52244fa7d8e996bfc7c9",
+      "title": "神道・神社資料集成",
+      "category": "Religious Studies",
+      "ddc": "200",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 174,
+      "record_id": "816361ae8952209b1d5c",
+      "title": "岡山県神社庁 岡山県神社検索",
+      "category": "Religious Studies",
+      "ddc": "200",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 175,
+      "record_id": "b63e886b97b82b1faf25",
+      "title": "神社データベース",
+      "category": "Religious Studies",
+      "ddc": "200",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 176,
+      "record_id": "28b78e939c06b2f8a0d0",
+      "title": "近代日本の日記（β版）",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 177,
+      "record_id": "b53f65ca1e8ef0280041",
+      "title": "舞台衣装データベース",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 178,
+      "record_id": "515ca11939e02523094e",
+      "title": "早稲田大学文化資源データベース",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 180,
+      "record_id": "d724f47372e60e794666",
+      "title": "石造物3Dアーカイブ",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 180,
+      "record_id": "d724f47372e60e794666",
+      "title": "石造物3Dアーカイブ",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 181,
+      "record_id": "dde684a63031b598b384",
+      "title": "津軽デジタル風土記",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 182,
+      "record_id": "3b703e43f808fcc7886a",
+      "title": "古文書・聖教データベース",
+      "category": "Religious Studies",
+      "ddc": "200",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 186,
+      "record_id": "8801747a9f37f88153e9",
+      "title": "東京都公文書館デジタルアーカイブ",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 192,
+      "record_id": "b99bcffd15bf61a46a47",
+      "title": "東京帝国大学五十年史料",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 195,
+      "record_id": "2e7d58adba7e2a95731e",
+      "title": "斯道文庫所蔵典籍解題目録データベース",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 196,
+      "record_id": "dcd0db8f66effa7644b8",
+      "title": "国立歴史民俗博物館館蔵中世古文書データベース",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 198,
+      "record_id": "8bdfbd4e15cfa510d937",
+      "title": "東京国立博物館所蔵古文書データベース",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 199,
+      "record_id": "3302d50f898c58533cb8",
+      "title": "国立公文書館デジタルアーカイブ",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 200,
+      "record_id": "872850e2697e27700813",
+      "title": "観世アーカイブ",
+      "category": "Religious Studies",
+      "ddc": "200",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 201,
+      "record_id": "44867d7861cf5b91c980",
+      "title": "賀茂県主同族会（上賀茂神社）／賀茂祢宜神主系図ほか",
+      "category": "Religious Studies",
+      "ddc": "200",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 202,
+      "record_id": "8237b2450155c8155f74",
+      "title": "中条家文書検索システム",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 203,
+      "record_id": "0915057b2dc048f4744f",
+      "title": "神奈川県立公文書館資料・中世文書",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 206,
+      "record_id": "dc554d8bbd301544fd68",
+      "title": "遊廓・遊所研究データベース",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 208,
+      "record_id": "028b6ce65d5059f32068",
+      "title": "Khirin-a",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 209,
+      "record_id": "c7d634fd39f2a78c2241",
+      "title": "Overseas Japanese-language Newspapers",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 213,
+      "record_id": "b9fa0498504045dc1302",
+      "title": "神名データベース",
+      "category": "Religious Studies",
+      "ddc": "200",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 214,
+      "record_id": "423e42fe2fbc89c8d5fa",
+      "title": "法隆寺金堂壁画写真ガラス原板デジタルビューア",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 215,
+      "record_id": "2d5b8664738fb080325b",
+      "title": "学びと遊びの歴史",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 217,
+      "record_id": "59362062cdde533144c9",
+      "title": "戦後教育資料デジタルアーカイブ",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 219,
+      "record_id": "060fa23e62b216fd6739",
+      "title": "邦字新聞デジタル・コレクション",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 220,
+      "record_id": "5510fc33a3b5dbe29d09",
+      "title": "Rōkyoku (Naniwabushi) Digital Archive",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 221,
+      "record_id": "213e8cbd982f75bea156",
+      "title": "Heian-Period Chronicles (Old Diaries, Historical Documents)",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 223,
+      "record_id": "a1034d42c5d06a5adc0f",
+      "title": "みんなで翻刻 サーチ",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 224,
+      "record_id": "b4a50077ace7dd8c9579",
+      "title": "みんなでつくる信州上田デジタルマップ",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 226,
+      "record_id": "d4d2ce57dde81405091a",
+      "title": "ダンス・アーカイヴ",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 228,
+      "record_id": "e0a9441c9240964a9f97",
+      "title": "コロナアーカイブ＠関西大学",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 230,
+      "record_id": "4c4ae8567751f78e289a",
+      "title": "阪神淡路大震災25年激震の記録1995取材映像アーカイブ",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 232,
+      "record_id": "7159a8c4ec09d412013a",
+      "title": "竹内道敬文庫の世界",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 234,
+      "record_id": "8b38e6ea97d1703dab29",
+      "title": "文化財動画ライブラリー（文化財動画検索）",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 237,
+      "record_id": "8b46ca42f22b5a95eed4",
+      "title": "文化財総覧WebGIS",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 240,
+      "record_id": "c4effca0d034897cb19a",
+      "title": "明治期官僚・官職データベース ver.2.1",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 241,
+      "record_id": "0522b3c037ee95d64cc4",
+      "title": "東京五輪アーカイブ1964-2020",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 242,
+      "record_id": "55f9369444f8400f528d",
+      "title": "沖縄戦デジタルアーカイブ～戦世からぬ伝言（いくさゆーからぬちてーぐとぅ）",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 243,
+      "record_id": "c2c58eacebf6abb29dc0",
+      "title": "東日本大震災アーカイブ",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 244,
+      "record_id": "b182add9a46c6ed292be",
+      "title": "ヒロシマ・アーカイブ",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 245,
+      "record_id": "12131089e78a2ae371a1",
+      "title": "ナガサキ・アーカイブ",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 248,
+      "record_id": "bd783268077f8a3bbb92",
+      "title": "関東大震災映像デジタルアーカイブ",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 253,
+      "record_id": "6172a8cffdcb4803a77f",
+      "title": "KNM Collection Database",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 256,
+      "record_id": "aaa6e910963761722f63",
+      "title": "[Japan, albums of old photographs]",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 269,
+      "record_id": "a7050315e557d6fcd9eb",
+      "title": "Cultural Heritage Online",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 287,
+      "record_id": "34cc2847d52619d3633c",
+      "title": "Database of Cultural Properties of Japan",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 288,
+      "record_id": "774a0a7639cd907a0354",
+      "title": "Japanese Woodblock Print Search (Ukiyo-e Search)",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 289,
+      "record_id": "d44e75c68f97ec5669d4",
+      "title": "Tsubouchi Memorial Theatre Museum Digital Archives Collection The",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 290,
+      "record_id": "ce59f20b40d53fe63bf3",
+      "title": "Japanese Garden Dictionary",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 291,
+      "record_id": "74eb13ff0ed0f690369a",
+      "title": "Rekion: Historical Recordings Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 292,
+      "record_id": "686a430f097ac55512fc",
+      "title": "The Hyakugo Archives WEB",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 293,
+      "record_id": "c78f7a6ee7bbd4e8da70",
+      "title": "The Nagasaki Shipping List and Advertiser",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 300,
+      "record_id": "245b34ac70b4b98d9fd7",
+      "title": "Photo Archive of Japanese Religions",
+      "category": "Religious Studies",
+      "ddc": "200",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 301,
+      "record_id": "c0c80014cdabd4a10a1c",
+      "title": "The SAT Daizokyo Text Database",
+      "category": "Religious Studies",
+      "ddc": "200",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 302,
+      "record_id": "ebf68cd9196517e65abb",
+      "title": "Digital Dictionary of Buddhism",
+      "category": "Religious Studies",
+      "ddc": "200",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 303,
+      "record_id": "f43ac21350e38be799d9",
+      "title": "Sotozen-Net: Glossary",
+      "category": "Religious Studies",
+      "ddc": "200",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 304,
+      "record_id": "66216d2e5c817d89c23b",
+      "title": "The Laures Rare Book Database & Virtual Library",
+      "category": "Religious Studies",
+      "ddc": "200",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 304,
+      "record_id": "66216d2e5c817d89c23b",
+      "title": "The Laures Rare Book Database & Virtual Library",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 305,
+      "record_id": "8378ad5cd5b2c40293ed",
+      "title": "Japanese Old Phoographs In bakumatsu-Meiji Period",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 330,
+      "record_id": "d977d18100e63e0b0ece",
+      "title": "Database, Center for research of Ancient Culture , Nara Women's University",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 331,
+      "record_id": "38295dd3714c08966c09",
+      "title": "Digital Archives, Tomioka Silk, World Heritage Site",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 332,
+      "record_id": "ba9985daa4ea386c9238",
+      "title": "Kumagaya Digital Museum",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 333,
+      "record_id": "7d3b8baf8de87d247951",
+      "title": "Rare materials, Hirosaki University Library",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 334,
+      "record_id": "60b465f485f178a4ba4f",
+      "title": "The Aso Manuscript Collection , Kumamoto University Library",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 335,
+      "record_id": "cfd083916ed05ae05425",
+      "title": "Database of Archaeological materials, Yamaguchi University",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 337,
+      "record_id": "cbc43296402869b0e932",
+      "title": "Collection List, Currency Museum, Insutitute for Monetary and Economic Studies",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 338,
+      "record_id": "1309ba336b037471dca6",
+      "title": "Search for Nishikie, GAS Museum",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 339,
+      "record_id": "e5122206d4fa4b0b04a9",
+      "title": "HANKYU Cluture Archaives",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 340,
+      "record_id": "d10fbeffe419b353be9a",
+      "title": "Collections, The Ad Museum Tokyo",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 345,
+      "record_id": "e6de77e16255cf027c35",
+      "title": "Search for Archive materials, Guma Prefectural Museum of History",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 346,
+      "record_id": "d23900e6d9f3fe602bc8",
+      "title": "Search for Archive materials, Ibaraki Prefectural Museum of History",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 347,
+      "record_id": "534fe78cf0d67fdd3647",
+      "title": "Digital Museum , Kanagawa Prefectural Museum of Cultural History",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 348,
+      "record_id": "b36ece7c9e960d2cd4d5",
+      "title": "Digital Museum, Naha City Museum of History",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 349,
+      "record_id": "79144f32b9a2ec3d0f22",
+      "title": "NHK Archives",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 350,
+      "record_id": "26e6846527ee3edf3a21",
+      "title": "Search for Archive materials, The Museum,Archaeological Istitute of Kashihara,Nara Prefecture",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 351,
+      "record_id": "61cf9a389618aef6e854",
+      "title": "Archive materials, Tohoku History Museum",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 352,
+      "record_id": "bb86e8e9fa95ebdb7dc4",
+      "title": "Digital Archives, Tohoku University Digital Archives",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 353,
+      "record_id": "f373993ece9aebaf0d21",
+      "title": "Web-OPAC, Yokohama Archives of History",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 354,
+      "record_id": "366454f3962449653595",
+      "title": "Research materials, Kuroda Memorial Hall",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 357,
+      "record_id": "59d8a7a0d01f44c75cd5",
+      "title": "Digital Museum of the Maruyama School, Daijyoji Temple",
+      "category": "Religious Studies",
+      "ddc": "200",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 363,
+      "record_id": "b14f9144fc6cf54b0006",
+      "title": "Aso Historical Documents",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 364,
+      "record_id": "18a3f14fa787f744d823",
+      "title": "Cho-zai search catalog",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 365,
+      "record_id": "57c7a4dd957a7ee99a28",
+      "title": "Digital Collection",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 366,
+      "record_id": "ecd72afdd915fecd964c",
+      "title": "Sarch System of Mitsubishi Historical Documents",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 368,
+      "record_id": "0d07efd7b6c2720edcfc",
+      "title": "Union Catalog of the Collections of the National Art Museums",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 371,
+      "record_id": "077fce1a5e2a4e583b0e",
+      "title": "Virtual Museum for Oriental Cultures",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 372,
+      "record_id": "805204808ea98f66850b",
+      "title": "Special Collection",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 377,
+      "record_id": "b3a9d0a30efcdf0394e5",
+      "title": "Digital Kabuki Museum",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 381,
+      "record_id": "44bebb9d108725b68f9d",
+      "title": "Rare images of Nichiren",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 382,
+      "record_id": "5096f5d9b45f384306c3",
+      "title": "Collection by Dr. Keiji Tanaka",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 383,
+      "record_id": "efc54f1af6f1c03ce9fb",
+      "title": "Rare Books Electronic Exhibition Room",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 384,
+      "record_id": "28a1840687f80fc664c4",
+      "title": "Archaeological Materials Database",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 386,
+      "record_id": "d781f93f9298082cd78e",
+      "title": "Peace Database",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 388,
+      "record_id": "f40eab235836534fcf60",
+      "title": "Collection Database",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 389,
+      "record_id": "8bbf4846d5cae2ec42db",
+      "title": "Banknote Database",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 390,
+      "record_id": "78e1fb42607adff32dda",
+      "title": "Digital Museum",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 391,
+      "record_id": "35ec9f2807b609b29648",
+      "title": "NAGASAKI ATOMIC BOMB MUSEUM MEMORIAL DATABASE",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 392,
+      "record_id": "54b4fd9236c4be4d86c4",
+      "title": "Evidences",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 394,
+      "record_id": "59b850de3bee7d565b57",
+      "title": "Collection Database",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 395,
+      "record_id": "6e1fb239b80401e9ae08",
+      "title": "Collection Database",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 396,
+      "record_id": "7c2ae5a01346e4648077",
+      "title": "SHIMANE Virtual Museum",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 397,
+      "record_id": "81b259e2509762c8ba2a",
+      "title": "Collection Database",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 399,
+      "record_id": "90f6a25a00816df951ae",
+      "title": "Collection Database",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 400,
+      "record_id": "d0a661135f1790f52c08",
+      "title": "Collection Database",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 401,
+      "record_id": "1ff6633df5ecec076e0c",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 402,
+      "record_id": "449ea7c3e2ece6e57306",
+      "title": "Digital Archive",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 403,
+      "record_id": "5a4c460f9f4bf43054b4",
+      "title": "Masayoshi Hirano Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 404,
+      "record_id": "7478f6181c4b3eee8dd2",
+      "title": "Collection Database",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 405,
+      "record_id": "939806d997257fdc2e7f",
+      "title": "Domon Ken & Works",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 406,
+      "record_id": "e70782a4cb261853deb4",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 407,
+      "record_id": "cad3505adf2be9265bb1",
+      "title": "Collection Database",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 408,
+      "record_id": "1910a3e086d7b460eca5",
+      "title": "Colletion",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 409,
+      "record_id": "fcad2e18cc37cbbd2ccc",
+      "title": "Collection Database and Digital Museum",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 410,
+      "record_id": "52bde3c0679c750844bf",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 411,
+      "record_id": "e7f1c4ff6f9e9856b334",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 412,
+      "record_id": "8a9ce59d3e3be9772ece",
+      "title": "The Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 413,
+      "record_id": "c731f151add7947ad435",
+      "title": "Collection",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 414,
+      "record_id": "81f766972d51eab999fd",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 415,
+      "record_id": "f5f467d2faf58aaf1dd3",
+      "title": "Digital Archive",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 416,
+      "record_id": "a02db2eae856520a37d9",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 417,
+      "record_id": "198480397dd610bcaf2e",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 418,
+      "record_id": "41c33c7a3bf3c2e85e77",
+      "title": "Collection Search System",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 419,
+      "record_id": "3edc0f3ba8ec4338accc",
+      "title": "Collection Database",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 420,
+      "record_id": "5aed1c02be6c59faaf2e",
+      "title": "Collection Search",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 421,
+      "record_id": "d48ecdd1b07ef5a0199a",
+      "title": "ARTWORK",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 422,
+      "record_id": "26fe1dae2c471da2e568",
+      "title": "The Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 423,
+      "record_id": "c874c3de32d1080c9f82",
+      "title": "Video Library",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 424,
+      "record_id": "e553b81c8fb00336585e",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 425,
+      "record_id": "6f54f02d61078172e5c3",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 426,
+      "record_id": "709aa02cd6bc145b294e",
+      "title": "Collection Database",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 427,
+      "record_id": "614701d441cf72719e54",
+      "title": "Search the Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 428,
+      "record_id": "eb685a8aa607b50ae808",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 429,
+      "record_id": "47b6ccde89b6902577d9",
+      "title": "Google Art and Culture",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 430,
+      "record_id": "48438580963750d07870",
+      "title": "Digital Museum",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 431,
+      "record_id": "17c5bc768430f2c07986",
+      "title": "Collection Database",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 432,
+      "record_id": "4c670d3033d8269d07b2",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 433,
+      "record_id": "b4facdfa12823440233f",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 434,
+      "record_id": "62347f2a4469cf992271",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 435,
+      "record_id": "6de7fa9cceb09b6e9f4c",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 436,
+      "record_id": "aaf957ea0f2223cea23e",
+      "title": "VIRTUAL GALLERY",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 437,
+      "record_id": "10abe3f8880baf04ac48",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 438,
+      "record_id": "f46f0f429da7cf027fb6",
+      "title": "Collection Search",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 439,
+      "record_id": "a3016f1a72fd1ad0f49b",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 440,
+      "record_id": "7277c94361ec2d3bea44",
+      "title": "Collection Database",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 441,
+      "record_id": "ac21188844e440cd0c68",
+      "title": "Collection Database",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 442,
+      "record_id": "01deef144fc383795d6a",
+      "title": "Material Database",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 443,
+      "record_id": "4b5cee9ec19b0b787222",
+      "title": "Our Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 444,
+      "record_id": "83a00783cb1bcb094b24",
+      "title": "Kagoshima Digital Museum",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 445,
+      "record_id": "2cff00a27ba63e615bad",
+      "title": "Collettion List",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 446,
+      "record_id": "d5d5e371c2d23e3f64e3",
+      "title": "Collection",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 448,
+      "record_id": "a8cbf2f37142f6908514",
+      "title": "地震史料集テキストデータベース",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 450,
+      "record_id": "6d4ce7f252c1d11244d6",
+      "title": "対日指令集データベース(SCAPIN-DB)",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 453,
+      "record_id": "87d10ceefc5d09dfdc3f",
+      "title": "Digital 法寶義林 (Hôbôgirin)",
+      "category": "Religious Studies",
+      "ddc": "200",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 457,
+      "record_id": "35d44cc5fa1aeac73e27",
+      "title": "「古代・中世」地震・噴火史料データベース(β版)",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 458,
+      "record_id": "9326c8466903ba4a35b8",
+      "title": "日本古代史関係研究文献目録データベース",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 459,
+      "record_id": "bac82d9c72de45624c8e",
+      "title": "Database of Hen'nen Shiryo (Ancient) Editing Support Resources MIDOH",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 460,
+      "record_id": "eac754812771fe4d4446",
+      "title": "青森県史デジタルアーカイブシステム",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 461,
+      "record_id": "fd459c0291efc029883c",
+      "title": "姫路城アーカイブ",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 462,
+      "record_id": "40578e3934b765794b43",
+      "title": "売立目録作品情報",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 463,
+      "record_id": "10b42ff806746581693c",
+      "title": "蔵書印画像",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 464,
+      "record_id": "cfa5b855bb77047642d6",
+      "title": "近世艶本・春画総合データベース",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 466,
+      "record_id": "51e0e54d6e623b0a4d06",
+      "title": "みちのく震録伝",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 469,
+      "record_id": "122f05820c1077a1ca04",
+      "title": "蔵書印ツールコレクション",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 470,
+      "record_id": "6a92a38ef3e3354810a1",
+      "title": "国書データベース",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 471,
+      "record_id": "091cc5c58c05de089340",
+      "title": "蔵書印データベース検索システム",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 472,
+      "record_id": "496b267793aa8a51debd",
+      "title": "近代日本人の肖像",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 474,
+      "record_id": "6dac1172681832c6b8e1",
+      "title": "金春家文書デジタルアーカイブ",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 475,
+      "record_id": "ad9e333ab49f17fc2282",
+      "title": "日本文化財VRミュージアム",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 477,
+      "record_id": "865b9eb13c4a5edb3d92",
+      "title": "フィルムは記憶する 国立映画アーカイブ歴史映像ポータル",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 480,
+      "record_id": "d8a3448286dae3206327",
+      "title": "禅文化研究所蔵書Search",
+      "category": "Religious Studies",
+      "ddc": "200",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 481,
+      "record_id": "2c062e52e85ea33c64b9",
+      "title": "大阪府立狭山池博物館デジタルアーカイブ",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 492,
+      "record_id": "8f1f14af131d03d5efb6",
+      "title": "Sophia University Rarebook Database",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 495,
+      "record_id": "8bf953fa1608600966ce",
+      "title": "Comprehensive Database of Archaeological Site Reports in Japan",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 496,
+      "record_id": "791213fb80c4ddbaf48f",
+      "title": "e-Museum",
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 497,
+      "record_id": "515dc288459594f2aa71",
+      "title": "Newspaper Clipping Collection, Kobe University Digital Archive",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 498,
+      "record_id": "af7e2defd17c3edcf451",
+      "title": "History Database of Otsu,",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    },
+    {
+      "record": 499,
+      "record_id": "335991e97b701f10e861",
+      "title": "昭和館デジタルアーカイブ: 昭和館収蔵資料データベース",
+      "category": "History",
+      "ddc": "900",
+      "status": "added",
+      "relation": "broadMatch",
+      "mapping": "nihu-resource-guide-ddc-main-classes-v1"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "nihu-resource-guide-ddc-main-classes-v1",
+  "reviewed_on": "2026-10-23",
+  "policy": "Keep every original subject. Add only the three approved main-class mappings. These are broad subject mappings, not item-level cataloguing or exact equivalences. Keep existing numeric DDC values unchanged. Do not infer mappings for other categories.",
+  "source": {
+    "title": "OCLC DDC Summaries: First Summary, The Ten Main Classes",
+    "url": "https://www.oclc.org/content/dam/oclc/dewey/resources/summaries/deweysummaries.pdf",
+    "edition": "DDC 22 (2003)",
+    "pdf_page": 9
+  },
+  "mappings": [
+    {
+      "category": "History",
+      "ddc": "900",
+      "label": "History & geography",
+      "relation": "broadMatch",
+      "reason": "The source history category is mapped to the broader history-and-geography main class. This does not assign a more specific historical period or region."
+    },
+    {
+      "category": "Arts and Crafts",
+      "ddc": "700",
+      "label": "Arts & recreation",
+      "relation": "broadMatch",
+      "reason": "The source arts-and-crafts category is mapped to the broader arts-and-recreation main class. This does not select an individual art form."
+    },
+    {
+      "category": "Religious Studies",
+      "ddc": "200",
+      "label": "Religion",
+      "relation": "broadMatch",
+      "reason": "The source religious-studies category is mapped to the religion main class for broad browsing. This does not select a religion or an individual disciplinary treatment."
+    }
+  ],
+  "unmapped_categories": [
+    {"category": "General", "reason": "Insufficient subject specificity; do not equate the site's catch-all category with DDC 000."},
+    {"category": "Research Societies, People, and Databases", "reason": "Combines organizations, people and resource forms rather than a single subject."},
+    {"category": "Overseas collections of Japanese Resources", "reason": "Describes location and collection scope rather than a single subject."},
+    {"category": "Bibliography and Digital Libraries", "reason": "Combines bibliographies and library/information services; no single mapping was approved."},
+    {"category": "Literature and Linguistics", "reason": "Spans at least the literature and language main classes."},
+    {"category": "Domestic and International Affairs", "reason": "Can span politics, international relations, society and history."},
+    {"category": "Maps and Geology", "reason": "Combines cartography/geography and earth sciences."},
+    {"category": "Ethnography and Folklore", "reason": "Combines anthropology and folklore; individual resource scope requires review."}
+  ]
+}
