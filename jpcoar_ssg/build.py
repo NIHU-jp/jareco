@@ -19,7 +19,7 @@ WORDS = {
     "en": dict(collection="RESOURCE COLLECTION", search="Search the collection", query="Keywords",
                hint="Search titles, descriptions, names and other metadata in any language. Separate words with spaces to match all of them.",
                content_types="Contained material type (original metadata)", subjects="Subject", creators="Creator / provider", types="Resource type", languages="Resource language", access="Access rights",
-               all="All", reset="Clear filters", results="Resources", found="{visible} of {total} resources",
+               all="All", reset="Clear filters", results="Resources", count_label="Resources", found="{visible} of {total} resources",
                details="View details", visit="Visit resource", overview="Description", metadata="All metadata",
                alternate="Other titles", people="Creators and publishers", links="Resource links", back="Back to collection",
                empty="No resources match your search.", previous="Previous", next="Next", page="Page {page} of {pages}",
@@ -31,7 +31,7 @@ WORDS = {
     "ja": dict(collection="リソースコレクション", search="リソースを探す", query="キーワード",
                hint="名称・説明・提供元などのメタデータを、言語を問わず検索します。空白で区切ると、すべての語を含む項目を表示します。",
                content_types="収録資料タイプ（元データ）", subjects="主題", creators="作成者・提供元", types="資源タイプ", languages="資料の言語", access="アクセス権",
-               all="すべて", reset="絞り込みを解除", results="リソース一覧", found="全{total}件中 {visible}件",
+               all="すべて", reset="絞り込みを解除", results="リソース一覧", count_label="収録リソース", found="全{total}件中 {visible}件",
                details="詳細を見る", visit="公開サイトへ", overview="説明", metadata="すべてのメタデータ",
                alternate="別の名称", people="作成者・出版者", links="リソースのリンク", back="一覧へ戻る",
                empty="条件に一致するリソースがありません。", previous="前へ", next="次へ", page="{pages}ページ中 {page}ページ",
@@ -141,6 +141,8 @@ def shell(config, lang, title, body, prefix, record_id=None, scripts=""):
 
 def render_index(records, config, lang):
     w = WORDS[lang]
+    total = str(len(records))
+    total_digits = "".join(f'<span class="total-digit">{digit}</span>' for digit in total)
     prefix = "./" if lang == config["default_language"] else "../"
     facets, search_records = [], []
     for field in config["facets"]:
@@ -172,7 +174,7 @@ def render_index(records, config, lang):
         notice_text = notice_text.replace(label, f'<a href="{prefix}original/{filename}">{label}</a>', 1)
     notice_html = f'<aside class="notice">{notice_text}</aside>' if notice else ""
     body = f'''<main id="main"><section class="hero"><p class="eyebrow">{w['collection']}</p><div class="hero-row"><h1>{esc(localized(config, 'title', lang, 'JPCOAR Catalogue'))}</h1>
-<div class="total"><strong>{len(records)}</strong><span>{w['results']}</span></div></div><p class="intro">{esc(localized(config, 'description', lang))}</p>{notice_html}</section>
+<div class="total" aria-label="{w['count_label']}: {total}"><strong aria-hidden="true">{total_digits}</strong><span>{w['count_label']}</span></div></div><p class="intro">{esc(localized(config, 'description', lang))}</p>{notice_html}</section>
 <section class="finder" aria-labelledby="finder-title"><h2 id="finder-title">{w['search']}</h2>
 <form id="search-form" method="get"><div class="query-row"><label for="q">{w['query']}</label><div class="query-controls"><input id="q" name="q" type="search" autocomplete="off" placeholder="{esc(w['query'])}" aria-describedby="search-help"><button type="submit">{w['search']}</button></div></div>
 <p class="hint" id="search-help">{w['hint']}</p><div class="facets">{''.join(facets)}</div><button type="button" id="reset" class="text-button">{w['reset']}</button></form></section>

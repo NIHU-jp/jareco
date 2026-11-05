@@ -1,11 +1,11 @@
 # JARECO — JPCOAR Static Catalogue
 
-日本研究・人文学リソースガイドの501件を、PHPやDBなしで検索・閲覧できる実験的な静的サイトです。
+日本研究・人文学リソースガイドの501件を、検索・閲覧できる実験的なサイトです。
 英語・日本語の一覧と詳細ページを生成し、ブラウザー内でAND検索・絞り込み・ページ分けを行います。
 
 公開リポジトリ: https://github.com/NIHU-jp/jareco
 
-想定公開先: https://nihu-jp.github.io/jareco/
+公開先: https://nihu-jp.github.io/jareco/
 
 ## 編集と生成
 
@@ -34,17 +34,17 @@ XML定義は [schema/catalogue.xsd](schema/catalogue.xsd) を参照してくだ�
 
 Python 3.11以上の標準ライブラリで生成可能です（Python 3.14で検証）。
 
-`sh /Users/user/local/nihu.local/repos/jpcoar-static-catalogue/build.sh`
+`sh /Users/user/local/nihu-bridge-jareco.local/repos/jpcoar-static-catalogue/build.sh`
 
 CSV/JSONからdata/resources.xmlを再生成し、dist/へサイトを出力します。CSV/JSONは書き換えません。
 XML生成だけならprepare.shです。旧add-ddc.sh/classify.shも現在はprepare.shへの互換入口です。
 DDC・分類を変更する際はCSV/JSONを編集してください。tools/の旧XML補正関数は過去作業と検証用です。
 
-`sh /Users/user/local/nihu.local/repos/jpcoar-static-catalogue/preview.sh`
+`sh /Users/user/local/nihu-bridge-jareco.local/repos/jpcoar-static-catalogue/preview.sh`
 
 http://127.0.0.1:8894/ を開きます。dist/index.htmlを直接開いても検索できます。
 
-`sh /Users/user/local/nihu.local/repos/jpcoar-static-catalogue/check.sh`
+`sh /Users/user/local/nihu-bridge-jareco.local/repos/jpcoar-static-catalogue/check.sh`
 
 CSVの全フィールド保持、固定ID、CSV変更の反映、補足との競合拒否、原本への非依存、
 内部リンク、XMLパーサーを検証し、Node.jsがあれば検索スクリプトも検証します。

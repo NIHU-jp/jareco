@@ -7,3 +7,12 @@ footer{border-top:1px solid var(--line);max-width:1280px;margin:auto;padding:32p
 @media(min-width:1280px){main{padding-left:0;padding-right:0}}@media(max-width:1279px){main{padding-left:48px;padding-right:48px}.detail{padding-left:48px;padding-right:48px}}@media(max-width:700px){.site-header{padding:16px 20px;align-items:start;gap:15px}.brand{font-size:11px;max-width:250px}.brand-mark{width:28px;height:28px;font-size:20px}.languages{gap:10px;font-size:11px}main,.detail{padding-left:20px;padding-right:20px}.hero{padding-top:32px}.hero-row{gap:18px}.total{min-width:52px}.total strong{font-size:36px}.total span{font-size:10px}.intro{font-size:14px}.finder{padding:20px 16px}.query-controls{flex-direction:column}.query-controls button{font-size:14px}.facets{grid-template-columns:1fr 1fr}.results{margin-top:28px}.resource-heading{gap:10px}.number{min-width:24px}h3{font-size:20px}.summary,.resource-bottom{margin-left:34px}.resource-bottom{align-items:start}.external{font-size:11px}.results-heading{align-items:start}.results-heading p{font-size:11px}.pagination{gap:12px}.pagination button{padding:8px 12px}footer{padding:28px 20px;grid-template-columns:1fr;gap:24px}.detail h1{font-size:30px}th,td{padding:10px 8px;font-size:12px}th{width:35%}}
 
 .related-sites{grid-column:1 / -1}
+
+/* The collection total uses a quiet split-flap treatment so it reads as a
+   changing catalogue count rather than an error code. */
+.total{text-align:center;min-width:168px}
+.total strong{display:flex;justify-content:flex-end;gap:6px;font-family:inherit;font-size:0;line-height:1}
+.total .total-digit{position:relative;display:grid;place-items:center;width:52px;height:72px;overflow:hidden;border:1px solid #cad5ca;border-radius:5px;background:#e9eee3;box-shadow:0 2px 4px #163a290d;color:var(--ink);font-size:48px;font-weight:500;line-height:1;font-variant-numeric:tabular-nums}
+.total .total-digit::after{content:"";position:absolute;inset:50% 0 auto;border-top:1px solid #18332f2b;box-shadow:0 1px #ffffffbf}
+.total>span{display:block;margin-top:9px;color:var(--muted);font-size:11px;letter-spacing:.08em}
+@media(max-width:700px){.total{min-width:104px}.total strong{gap:3px;font-size:0}.total .total-digit{width:32px;height:46px;border-radius:4px;font-size:30px}.total>span{margin-top:6px;font-size:9px;letter-spacing:.03em}}
